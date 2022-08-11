@@ -395,8 +395,7 @@ img{
         display: flex;
         justify-content: space-between;
         margin: 0px 0px 20px 0px;
-        padding-left: 25px;
-        padding-right: 30px;
+        padding: 0px 30px 0px 5px;
         color: rgba(0, 0, 0, 1);
         /*border: 3px solid blue;*/
     
@@ -831,12 +830,8 @@ img{
         margin: 0px 0px 24px 0px;
     }
     #sectionOne{
-        
-        padding: 0px 30px 0px 50px;
+        padding: 0px 30px 0px 40px;
         border: none;
-        margin-left: 10px;
-        width: 1400px;
-        /*border: 3px solid green;*/
     }
     .findPlace{
         font-size: 24px;
