@@ -22,7 +22,7 @@ li{
 
 .bookilogo{
     width: 90px;
-    margin-left: 40%;
+    margin-left:40%;
     
     /*border: 2px solid red;*/
 }
@@ -31,14 +31,9 @@ img{
     max-width:100%;
     height:auto;
 }
-/*.header{
-    border-bottom: 3px solid white;
-    justify-self: center;
-}*/
+
 #navbar{
-    /*display: flex;
-    justify-content: space-between;*/
-    /*background-color: red;*/
+    
     margin-bottom: 20px;
     margin-top: 18px;
     color: rgba(0, 0, 0, 1);
@@ -117,9 +112,9 @@ img{
     
 }
 #sectionTwo{
-    margin-left: 20px;
+   
     /*border: 5px solid red;*/
-    margin-top: 5px;
+    margin:5px 0px 0px 20px;
 
     
 }
@@ -135,8 +130,7 @@ img{
     font-weight: 760;
     height: 40px;
     width: 200px;
-    margin-right: 20px;
-    margin-bottom: 15px;
+    margin: 0px 20px 15px 0px;
     border-radius: 60px;
 }
 .pestallowedBox{
@@ -145,10 +139,6 @@ img{
 .romanticBox,.lowcostBox,.pestallowedBox,.familyfrdBox{
     display: flex;
 }
-/*.romanticellipse{
-    border: 2px solid  green;
-    
-}*/
 .romanticIcon, .lowcostIcon,.familyfrdIcon,.pestallowedIcon{
     margin: 0px 20px 0px 0px;
     width: 35px;
@@ -174,11 +164,8 @@ img{
 
 #section-three{
     /*border: 2px solid blue;*/
-    margin-top: 30px;
-    margin-right: 15px;
     display: flex;
-    margin-bottom: 30px;
-    margin-left: 20px;
+    margin: 30px 15px 30px 20px;
     
 
 }
@@ -213,10 +200,8 @@ img{
 
 .popularStar{
     /*border: 2px solid rgb(115, 62, 248);*/
-    margin-left: 20px;
-    margin-right: 10px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    margin: 0px 10px 0px 20px;
+    padding: 10px 0px 20px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -226,14 +211,18 @@ img{
     font-size: 18px;
     font-weight: 800;
 }
-.starIcon{
-    margin-right: 15px;
-    margin-top: 20px;
+.starIcon,.starIconBlack{
+    margin: 20px 15px 0px 0px;
+}
+.starIconBlack{
+    color: black;
+    width: 20px;
+   /*border: 2px solid red;*/
 }
 #sunHotelBox,#sunHotelBox3{
 
     /*border: 2px solid rgb(231, 69, 24);*/
-    margin: 10px 15px 0px 10px;
+    margin: 10px 20px 30px 20px;
     border-radius: 25px;
     display: flex;
     background-color: rgba(255, 255, 255, 1);
@@ -261,41 +250,43 @@ img{
     width: 100%;
 }
 .sunHotelInfo{
-    /*border: 5px solid rgb(193, 96, 11);*/
-    margin-left: 15px;
-    margin-right: 10px; 
-    height: 130px;  
+   /*border: 5px solid rgb(193, 96, 11);*/
+    margin: 0px 5px 0px 10px;
+    height: 140px;  
     
 }
 
 .morning{
     margin: 10px 0px 14px 0px;
     /*border: 2px solid rebeccapurple;*/
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 800;
 }
 .night{
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 40px 0px;
     font-size: 10px;
+    /*border: 2px solid ;*/
+    
 }
 .starRatingBox{
     /*border: 2px solid greenyellow;*/
     display: flex;
-    margin-top: 45px;
+    margin-top: 0px;
+  
 }
 #section-five{
     margin-right: 10px;
 }
 .aubergeHeading{
     
-    margin: 15px 5px 18px 20px;
-    /*border: 2px solid rgb(68, 47, 255);*/
+    margin: 15px 5px 18px 30px;
+    /*border: 2px solid rgb(229, 114, 114);*/
     font-size: 20px;
     font-weight: 700;
 }
 .aubergeBox,.annieBox,.annieBox2{
     /*border: 2px solid rgb(128, 55, 0);*/
-    margin: 10px 15px 10px 10px;
+    margin: 10px 15px 30px 20px;
     border-radius: 20px;
     padding: 3.2px;
     background-color:rgba(255, 255, 255, 1);
@@ -309,8 +300,8 @@ img{
     width: 100%;
 }
 .aubergeInfo{
-    /*border: 2px solid purple;*/
-    margin: 15px 0px 0px 10px;
+    /*border: 2px solid rgb(194, 53, 194);*/
+    margin: 10px 0px 20px 10px;
     
 }
 
@@ -318,13 +309,13 @@ img{
 .info1{
     font-size: 14px;
     font-weight: 800;
-    margin: 0px 0px 5px 0px;
-    margin-bottom: 8px;    
+    margin: 0px 0px 8px 0px;
+        
 }
 .info2{
     font-size: 14px;
-    margin: 0px 0px 5px 0px;
-    margin-bottom: 8px;
+    margin: 0px 0px 8px 0px;
+   
     
 }
 .aubergeStarBox{
@@ -350,7 +341,7 @@ img{
 }
 .oldPortBox,.florianBox,.paulBox,.kelvinBox{
     /*border: 2px solid rgb(128, 55, 0);*/
-    margin: 10px 15px 10px 10px;
+    margin: 10px 15px 20px 10px;
     border-radius: 20px;
     padding: 3.2px;
     background-color:rgba(255, 255, 255, 1);
@@ -398,20 +389,16 @@ img{
 
 
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 768px){
 
     #navbar{
         display: flex;
         justify-content: space-between;
-        /*background-color: red;*/
-        margin-bottom: 20px;
-        margin-top: 0px;
-        margin-left: 10px;
+        margin: 0px 0px 20px 0px;
         padding-left: 25px;
         padding-right: 30px;
-        width: 1400px;
         color: rgba(0, 0, 0, 1);
-        /*border: 8px solid blue;*/
+        /*border: 3px solid blue;*/
     
     }
     .accommodations{
@@ -431,14 +418,12 @@ img{
         justify-content: space-around;
         color: rgba(0, 0, 0, 1);
         margin-top: 0px;
-        padding-right: 30px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 5px 20px 5px 0px;
         /*border: 8px solid greenyellow;*/
     }
     li{
         list-style: none;
-        margin-right: 50px;
+        margin-right: 10px;
         margin-top: none;
         padding-top: 30px;
         color: rgba(0, 0, 0, 1);
@@ -460,11 +445,11 @@ img{
         margin: 0px 0px 24px 0px;
     }
     #sectionOne{
-        padding-left: 50px;
+        padding-left: 30px;
         padding-right: 30px;
         border: none;
-        margin-left: 10px;
-        width: 1400px;
+        margin-left: 0px;
+        
         /*border: 3px solid green;*/
     }
     .findPlace{
@@ -492,42 +477,43 @@ img{
         
     }
     .location{
-        
-       
         padding: 10px 0px 0px 20px;
         border-radius: 20px 0px 0px 20px;
     }
     .locationWord{
-        
         font-size: 16px;
         margin: 0px 0px 0px 0px;
         padding-left: 20px;
         padding-top: 8px;
     }
     #sectionTwo{
-        margin-left: 10px;
-        padding-right: 30px;
-        padding-left: 50px;
+        margin-left: 0px;
+        padding: 0px 30px 0px 30px;
         border: none;
         display: flex; 
-        width: 1400px;
-        /*border: 3px solid red;*/
-
+        /*border: 3px solid rgb(230, 89, 42);*/
+        display: flex;
+        flex-direction: column;
     }
     .filters{
-        margin-bottom: 10px;
         font-size: 24px;
         font-weight: 800;
-        margin-right: 20px;
-        margin-top: 2px; 
+        margin: 2px 20px 10px 0px;
+    }
+    .filterSubCont{
+        display: flex;
+        flex-direction: column;
+    }
+    .fam-pest{
+        display: flex;
+        
     }
     .lowcostBox,.romanticBox,.familyfrdBox,.pestallowedBox{
         border: 2px solid rgb(195, 179, 179);
         font-weight: 760;
         height: 40px;
         width: 230px;
-        margin-right: 20px;
-        margin-bottom: 15px;
+        margin: 0px 20px 15px 0px;
         border-radius: 60px;
     }
     .pestallowedBox{
@@ -543,91 +529,176 @@ img{
         padding-top: 10px;
         width: 440px;
     }
-    .aubergerowOne,.aubergerowTwo{
-        display: flex;
-        /*border: 3px solid yellow;*/
-        width: 800px;
-        margin-left: 10px;
-        justify-content: center;
     
-    }
     #section-three{
         border: none;
-        margin-top: 30px;
-        margin-right: 15px;
-        margin-left: 10px;
-        padding-left: 50px;
-        padding-right: 10px;
+        margin: 30px 0px 0px 0px;
+        padding: 0px 10px 0px 30px;
         display: flex;
         margin-bottom: 30px;
-        width: 1400px;
-        
+        /*border: 3px solid rgb(0, 255, 51);*/
     
     }
 
     .section4Section5{
         display: flex;
         justify-content: center;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
         border: none;
-        width: 1400px;
-        margin-left: 10px;
-        /*border: 3px solid red;*/
+        padding: 20px;
+        margin-left: 0px;
+        /*border: 3px solid rgb(244, 38, 45);*/
+    }
+
+    #section-four{
+        /*border: 5px solid rgb(62, 71, 202);*/
+        margin: 30px 0px 0px 0px;
+        justify-content: center;
+        background-color: rgba(242, 242, 242, 1);
+        border-radius: 30px;
+        padding: 0px 30px 0px 20px;  
+    }
+
+    .popularStar{
+        /*border: 2px solid red; */ 
+        padding-top: 20px;
+        margin: 0px 0px 0px 0px;
+    }
+    .mostPopular{
+        margin: 15px 10px 0px 0px;
+        border: none;
+    }
+    .sunHotelContainer{
+        display: flex;
+        flex-flow: column;
+        margin: 0px 0px;
+        /*border: 3px solid rgb(49, 0, 128);*/
+    }
+    #sunHotelBox{
+        margin: 3px 20px 60px 2px;
+        /*border: 3px solid greenyellow;*/
+    }
+    #sunHotelBox3{
+        margin: 3px 2px 60px 2px;  
+        /*border: 3px solid greenyellow;*/
     
     }
 
-   
-    #section-four{
-        /*border: 8px solid rgb(225, 84, 23);*/
-        margin-bottom: 0px;
-        margin-left: 50px;
-        margin-right: 5px;
-        background-color: rgba(242, 242, 242, 1);
-        width: 400px;
-        border-radius: 30px;
-        padding: 0px 20px 0px 20px; 
+    
+    .sunHotelImg{
+        width: 50%;
+        /*border: 2px solid rgb(40, 19, 224);*/
+        margin-left: 5px;
+     
     }
-    .popularStar{
-        border: none;  
-        padding-top: 20px;
+    .emile{
+        border-radius: 25px 0px 0px 20px;
+        height: 200px;
+        width: 100%;
     }
-    .mostPopular{
-        margin: 15px 10px 0px 5px;
+    .febrianImg{
+        border-radius: 25px 0px 0px 20px;
+        height: 200px;
+        width: 100%;
+    }
+    .sunHotelInfo{
+        /*border: 5px solid rgb(193, 96, 11);*/
+        margin: 0px 10px 0px 24px; 
+        height: 200px; 
+         
+        
+    }
+    .morning{
+        margin: 10px 0px 30px 0px;
+        /*border: 2px solid rebeccapurple;*/
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .night{
+        margin: 0px 0px 70px 0px;
+        font-size: 16px;
+    }
 
-        border: none;
-    }
+
     #section-five{
-        width: 850px;
+        
         border-radius: 30px;
-        border: none;
-        margin-right: 0px;
+        /*border: 2px solid rgb(128, 55, 0);*/
+        padding: 5px;
         background-color: rgba(242, 242, 242, 1);
         
     }
-    .aubergeHeading{
-        border: none;
-        margin: 15px 10px 18px 15px;
-        padding-left: 20px;
-        padding-top: 20px;
+    .aubergerowOne,.aubergerowTwo{
+        display: flex;
+        justify-content: center;
+        /*border: 5px solid rgb(79, 54, 242);*/
+        margin: 0px 0px;
         
+        
+    
+    }
+    .aubergeInfo{
+        /*border: 2px solid rgb(194, 53, 194);*/
+        margin: 2px 0px 0px 10px;
+        
+    }
+    
+    
+    .aubergeHeading{
+        /*border: 2px solid red;*/
+        margin: 15px 10px 10px 10px;
+        padding: 20px 0px 0px 10px;
+
+        
+    }
+   
+    .annieBox{
+        /*border: 5px solid rgb(128, 55, 0);*/
+        margin: 10px 15px 10px 0px;
+        width: 270px;
+    }
+    .annieBox2{
+        /*border: 5px solid rgb(201, 23, 23);*/
+        margin: 10px 15px 10px 10px;
+        width: 270px;
+    }
+    .aubergeBox{
+        /*border: 5px solid rgb(4, 128, 0);*/
+        margin: 10px 10px 10px 1px;
+        border-radius: 20px;
+        padding: 3.2px;
+        width: 270px;
+        background-color:rgba(255, 255, 255, 1);
+        box-shadow: 3px 3px 3px 3px rgb(214, 213, 213);
+        
+    }
+    
+    .marcus{
+        border-radius:20px 20px 0px 0px;
+        height: 150px;
+        width: 100%;
     }
     .showMore{
-        margin-bottom: 0px;
-        margin-top: 10px;
-        margin-left: 40px;
+        margin: 30px 0px 30px 10px;
         font-size: 20px;
     }
     #activiBox{
-        border: none;
-        margin: 50px 0px 0px 10px;
-        width: 1400px;
-        padding-right: 30px;
-        padding-left: 40px;
-        /*border: 3px solid green;*/
+        margin: 50px 0px 0px 0px;
+        padding: 0px 15px 0px 15px;
+        /*border: 2px solid rgb(128, 55, 0);*/
         
-    
+    }
+    .portContainer{
+        display: flex;
+        flex-direction: column;
+        /*border: 2px solid rgb(128, 55, 0);*/
+        padding: 2px;
         
         
+    }
+    .portPomFrioul{
+        display: flex;
+        /* border: 2px solid rgb(128, 55, 0);*/
     }
     .activiHeading{
         margin: 15px 10px 18px 50px;
@@ -636,46 +707,19 @@ img{
         font-weight: 700;
         
     }
-    .aubergeHeading{
-        width: 500px;
-    }
-    #sunHotelBox{
-        margin: 36px 15px 60px 10px;
-    }
-    #sunHotelBox3{
-        margin: 36px 15px 50px 10px;   
-    }
-    .annieBox{
-        border: 2px solid rgb(128, 55, 0);
-        margin: 10px 15px 10px 20px;
-        width: 270px;
-    }
-    .annieBox2{
-        border: 2px solid rgb(128, 55, 0);
-        margin: 10px 15px 10px 10px;
-        width: 270px;
-    }
     
-    .marcus{
-        border-radius:20px 20px 0px 0px;
-        height: 150px;
-        width: 100%;
-    }
     .portContainer{
         display: flex;
-        /*border: 8px solid blue;*/
-        padding-left: 20px;
-        
+        justify-content: center;
+        /*border: 3px solid rgb(64, 61, 232);*/
     }
     .pomeguesFrioulContainer{
-        margin-left: 20px;
+        padding: 0px 10px 0px 10px;
+        width: 500px;
+        /*border: 2px solid rgb(255, 0, 0);*/
     }
-    .florianBox{
-        margin: 10px 15px 30px 10px;
-        width: 300px;
-    }
-    .paulBox{
-        margin: 10px 15px 30px 10px; 
+    .paulBox,.oldPortBox,.kelvinBox,.florianBox{
+        margin: 10px 0px 30px 10px; 
     }
     .paulImg{
         height: 150px;
@@ -692,10 +736,369 @@ img{
         height: 430px;
         width: 100%;
         /*border: 8px solid red;*/
+    }
+    .kelvinImg{
+        width: 100%;
+        height: 180px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #footer{
+        border: none;
+        margin: 40px 0px 0px 0px;
+        padding: 50px 0px 30px 0px;
+        display: flex;
+        background-color: rgba(242, 242, 242, 1);
+        /*margin-left: 30px;*/
+    }
+    .aboutBox{
+        margin: 14px 0px 00px 50px;
+    }
+    .ourAccommodationsBox,.assistanceBox{
+        margin: 14px 0px 0px 70px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px){
+
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        /*background-color: red;*/
+        margin: 0px 0px 20p 0px;
+        padding: 0px 30px 0px 25px;
+        
+        color: rgba(0, 0, 0, 1);
+        /*border: 8px solid blue;*/
+    
+    }
+    .accommodations{
+        color: rgb(13, 111, 248);
+        border-top: 2px solid rgb(13, 111, 248);
+    }
+    .bookilogo{
+    
+        margin-left: 15px;  
+        width: 90px;
+        /*border: 2px solid red;*/
+        
+    }
+    .righNav{
+        display: flex;
+        justify-content: space-around;
+        color: rgba(0, 0, 0, 1);
+        margin-top: 0px;
+        padding: 5px 30px 5px 0px;
+        /*border: 8px solid greenyellow;*/
+    }
+    li{
+        list-style: none;
+        margin-right: 50px;
+        margin-top: none;
+        padding-top: 30px;
+        color: rgba(0, 0, 0, 1);
+        font-size: 24px;
+        /*border: 3px solid red;*/
+    }
+   
+    .motionBox{
+        display: flex;
+    }
+    .motionOne{
+        border: none;
+        width: 50%;
+        margin: 0px 0px 24px 0px;
+    }
+    .motionTwo{
+        border: none;
+        width: 50%;
+        margin: 0px 0px 24px 0px;
+    }
+    #sectionOne{
+        
+        padding: 0px 30px 0px 50px;
+        border: none;
+        margin-left: 10px;
+        width: 1400px;
+        /*border: 3px solid green;*/
+    }
+    .findPlace{
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 800;
+        width: 500px;
+    }
+    .downTown{
+        font-size: 24px;
+        color: #5f5e5e;
+        margin-top: 15px;
+    }
+    .location-search{ 
+        border: 2px solid rgb(219, 219, 219);
+        height: 50px;
+        width: 450px;
+        border-radius: 25px;  
+
+    }
+    .search{
+        border-radius: 0px 25px 25px 0px;
+        padding: 15px 0px 0px 15px;
+    }
+    .location{
+        padding: 10px 0px 0px 20px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .locationWord{
+        font-size: 16px;
+        margin: 0px 0px 0px 0px;
+        padding: 8px 0px 0px 20px;
+    }
+    #sectionTwo{
+        padding: 0px 30px 0px 50px;
+        border: none;
+        display: flex; 
+        /*border: 2px solid;*/
+        
+
+    }
+    .filters{
+        font-size: 24px;
+        font-weight: 800; 
+        margin: 2px 20px 10px 0px;
+    }
+    .filterSubCont{
+        display: flex;
+        flex-direction: row;
+    }
+    .fam-pest{
+        display: flex;
+        
+    }
+    .lowcostBox,.romanticBox,.familyfrdBox,.pestallowedBox{
+       /*border: 2px solid rgb(128, 55, 0);*/
+        font-weight: 760;
+        height: 40px;
+        width: 230px;
+        margin: 0px 20px 15px 0px;
+        border-radius: 60px;
+    }
+    .pestallowedBox{
+        width: 250px;
+    }
+    .romanticText,.lowcostText,.familyfrdText,.pestallowedText{
+        margin-top: 4px ;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .indeedword{
+        
+        padding-top: 10px;
+        width: 440px;
+    }
+   
+    #section-three{
+        border: none;
+        margin: 30px 0px 30px 0px;
+        padding: 0px 10px 0px 50px;
+        display: flex;
+    }
+
+    .section4Section5{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 0px 30px 0px 30px;
+        /*border: 2px solid rgb(128, 55, 0);*/
+    
+    }
+
+   
+    #section-four{
+        /*border: 2px solid rgb(128, 55, 0);*/
+        margin: 0px 5px 0px 50px;
+        background-color: rgba(242, 242, 242, 1);
+        width: 50%;
+        border-radius: 30px;
+        padding: 0px 20px 0px 20px;
+        
+    }
+    .sunHotelContainer{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px;
+        /*border: 2px solid rgb(128, 55, 0);*/
+    }
+    #sunHotelBox{
+        margin: 0px 15px 60px 10px; 
+    }
+    .sunHotelInfo{
+        /*border: 5px solid rgb(193, 96, 11);*/
+        margin-left: 15px;
+        margin-right: 10px; 
+        height: 150px;  
+        
+    }
+    
+    .morning{
+        margin: 10px 0px 14px 0px;
+        /*border: 2px solid rebeccapurple;*/
+        font-size: 10px;
+        font-weight: 800;
+    }
+    .night{
+        margin: 0px 0px 10px 0px;
+        font-size: 10px;
+    }
+    .emile{
+        border-radius: 25px 0px 0px 20px;
+        height: 140px;
+        width: 100%;
+    }
+    .febrianImg{
+        border-radius: 25px 0px 0px 20px;
+        height: 140px;
+        width: 100%;
+    }
+    #sunHotelBox3{
+        margin: 0px 15px 50px 10px;  
+        
+         
+    }
+    
+    .popularStar{
+        border: none;  
+        padding-top: 20px;
+    }
+    .mostPopular{
+        margin: 15px 10px 0px 5px;
+
+        border: none;
+    }
+    #section-five{
+        width: 70%;
+        border-radius: 30px;
+        /*border: 2px solid red;*/
+        margin-right: 0px;
+        background-color: rgba(242, 242, 242, 1);
+        
+    }
+    
+    .aubergeHeading{
+        border: none;
+        margin: 15px 10px 18px 15px;
+        padding: 20px 0px 0px 20px ;
+
+        
+    }
+    .aubergeBox{
+        /*border: 5px solid rgb(4, 128, 0);*/
+        margin: 10px 10px 10px 1px;
+        border-radius: 20px;
+        padding: 3.2px;
+        background-color:rgba(255, 255, 255, 1);
+        box-shadow: 3px 3px 3px 3px rgb(214, 213, 213);
+        width: 50%;
+    }
+    .annieBox{
+        /* border: 2px solid rgb(128, 55, 0);*/
+        margin: 10px 10px 10px 20px;
+        width: 50%;
+    }
+    .annieBox2{
+       /*border: 2px solid rgb(128, 55, 0);*/
+        margin: 10px 15px 10px 10px;
+        width: 50%;
+    }
+    .aubergerowOne,.aubergerowTwo{
+        display: flex;
+        /*border: 3px solid rgb(98, 0, 255);*/
+        margin-left: 20px;
+        justify-content: space-between;
+    
+    }
+    .showMore{
+        margin: 20px 0px 0px 40px;
+        font-size: 20px;
+        /*border: 3px solid rgb(98, 0, 255);*/
+        
+    }
+    #activiBox{
+        
+        margin: 50px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        /*border: 2px solid rgb(128, 55, 0);*/
+    
+        
+        
+    }
+    .activiHeading{
+        margin: 15px 10px 18px 50px;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+    .portContainer{
+        display: flex;
+        flex-direction: row;
+        /*border: 3px solid rgb(111, 31, 196);*/
+        padding: 30px;    
+    }
+    
+    
+    .pomeguesFrioulContainer{
+        margin-left: 20px;
+    }
+    .aubergeHeading{
+        width: 500px;
+        
+    }
+    .marcus{
+        border-radius:20px 20px 0px 0px;
+        height: 150px;
+        width: 100%;
+    }
+    
+    .florianBox{
+        margin: 10px 15px 30px 10px;
+    }
+    .paulBox{
+        margin: 10px 15px 30px 10px; 
+    }
+
+    .paulImg{
+        height: 150px;
+        width: 100%;
+    }
+    .lenaImg{
+        height: 180px;
+        width: 100%;
+    }
+    .renoImg{
+        border-radius:20px 20px 0px 0px;
+        height: 430px;
+        width: 100%;
+        /*border: 8px solid red;*/
 
     }
     .kelvinImg{
-        width: 700px;
+        width: 100%;
         height: 180px;
         border-radius: 20px 20px 0px 0px;
     }
